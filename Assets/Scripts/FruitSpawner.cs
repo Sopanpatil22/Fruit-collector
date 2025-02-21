@@ -3,10 +3,13 @@ using UnityEngine;
 
 public class FruitSpawner : MonoBehaviour
 {
-    public GameObject fruitPrefab;
-    public float maxX;
+    public GameObject[] fruitPrefab;
+    public float maxX,minX;
     public Transform Fruitspawner;
-    public float SpawnRate;
+     public float spawnInterval = 1.5f; 
+
+       public float spawnY = 6f; // Height above screen
+    public float fallSpeed = 3f;
 
     bool gameStarted = false;
 
@@ -32,18 +35,33 @@ public class FruitSpawner : MonoBehaviour
     }
 
     private void startSpawning(){
-        InvokeRepeating("spawnblock",0.5f,SpawnRate);
+
+         InvokeRepeating(nameof(spawnblock), 1f, spawnInterval);
     }
 
 
     private void spawnblock(){
-        Vector3 spawnPos =Fruitspawner.position;
 
-        spawnPos.x=Random.Range(-maxX,maxX);
+        if (fruitPrefab.Length == 0) return;
 
-        Instantiate(fruitPrefab,spawnPos,Quaternion.identity);
 
-       
+       int randomIndex = Random.Range(0, fruitPrefab.Length);
+
+        // Random X position within screen limits
+        float randomX = Random.Range(minX, maxX);
+
+        // Set spawn position at the top of the screen
+        Vector3 spawnPosition = new Vector3(randomX, spawnY, 0);
+
+        // Instantiate fruit
+        GameObject fruit = Instantiate(fruitPrefab[randomIndex], spawnPosition, Quaternion.identity);
+
+         // Apply downward velocity
+        Rigidbody2D rb = fruit.GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.linearVelocity = new Vector2(0, -fallSpeed); // Falls straight down
+        }
 
         
 

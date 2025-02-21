@@ -175,8 +175,8 @@ TextureImporter:
       name: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_1"
       rect:
         serializedVersion: 2
-        x: 1214
-        y: 2079
+        x: 1222
+        y: 2095
         width: 575
         height: 650
       alignment: 0
@@ -198,7 +198,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2108
-        y: 2067
+        y: 2083
         width: 612
         height: 630
       alignment: 0
@@ -223,8 +223,8 @@ TextureImporter:
         y: 1191
         width: 598
         height: 636
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.51296306, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -242,7 +242,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1203
-        y: 1188
+        y: 1165
         width: 586
         height: 630
       alignment: 0
@@ -263,10 +263,10 @@ TextureImporter:
       name: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_5"
       rect:
         serializedVersion: 2
-        x: 2096
-        y: 1185
-        width: 621
-        height: 642
+        x: 2120
+        y: 1159
+        width: 644
+        height: 699
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,7 +288,7 @@ TextureImporter:
         x: 277
         y: 312
         width: 673
-        height: 636
+        height: 665
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,7 +310,7 @@ TextureImporter:
         x: 1179
         y: 300
         width: 659
-        height: 595
+        height: 622
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,7 +329,7 @@ TextureImporter:
       name: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_8"
       rect:
         serializedVersion: 2
-        x: 2099
+        x: 2091
         y: 300
         width: 680
         height: 648
