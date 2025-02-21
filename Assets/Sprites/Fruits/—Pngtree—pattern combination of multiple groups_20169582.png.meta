@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 24e334d14ec594543818b641d862baa6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8128204864719967098
+    second: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_0"
+  - first:
+      213: 8471867588990552216
+    second: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_1"
+  - first:
+      213: -6755369449330216929
+    second: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_2"
+  - first:
+      213: 1796189420866090828
+    second: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_3"
+  - first:
+      213: 1983584575302569960
+    second: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_4"
+  - first:
+      213: -4427354776234434242
+    second: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_5"
+  - first:
+      213: 3388677982933050080
+    second: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_6"
+  - first:
+      213: -5621611859589539668
+    second: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_7"
+  - first:
+      213: 1191376494009998053
+    second: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_8"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_0"
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 2051
+        width: 603
+        height: 674
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ca3c89db0d23f80800000000000000
+      internalID: -8128204864719967098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_1"
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 2079
+        width: 575
+        height: 650
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8984de1bfae129570800000000000000
+      internalID: 8471867588990552216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_2"
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 2067
+        width: 612
+        height: 630
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10752ef64b1042a0800000000000000
+      internalID: -6755369449330216929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_3"
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1191
+        width: 598
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47b90cf2c85de810800000000000000
+      internalID: 1796189420866090828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_4"
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1188
+        width: 586
+        height: 630
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef8ad869ab178b10800000000000000
+      internalID: 1983584575302569960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_5"
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 1185
+        width: 621
+        height: 642
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31eae3c940ee82c0800000000000000
+      internalID: -4427354776234434242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_6"
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 312
+        width: 673
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e269e6eba0070f20800000000000000
+      internalID: 3388677982933050080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_7"
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 300
+        width: 659
+        height: 595
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8da0c5cc50cf1b0800000000000000
+      internalID: -5621611859589539668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_8"
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 300
+        width: 680
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea573feb9e988010800000000000000
+      internalID: 1191376494009998053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f8379cd12c988c04baeffe8725d1f256
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_0": -8128204864719967098
+      "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_1": 8471867588990552216
+      "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_2": -6755369449330216929
+      "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_3": 1796189420866090828
+      "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_4": 1983584575302569960
+      "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_5": -4427354776234434242
+      "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_6": 3388677982933050080
+      "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_7": -5621611859589539668
+      "\u2014Pngtree\u2014pattern combination of multiple groups_20169582_8": 1191376494009998053
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
