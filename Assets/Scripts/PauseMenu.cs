@@ -55,4 +55,9 @@ public class PauseMenu : MonoBehaviour
         UnityEditor.EditorApplication.isPlaying = false;
         #endif
     }
+
+     public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }
