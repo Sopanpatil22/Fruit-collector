@@ -34,19 +34,20 @@ public class PauseMenu : MonoBehaviour
 
     public void ResumeGame()
     {
-        Pausemenu.SetActive(false); // Hide pause menu
-        Time.timeScale = 1f;        // Resume time
+        Pausemenu.SetActive(false); 
+        Time.timeScale = 1f;        
         isPaused = false;
     }
 
     public void GoToMainMenu()
     {
-        Time.timeScale = 1f;  // Ensure time is running before switching scenes
-        SceneManager.LoadScene('Main Menu'); // Load main menu (replace 1 with correct scene index)
+        Time.timeScale = 1f;  
+        SceneManager.LoadScene(0); 
     }
 
-    public void QuitGame()
+    public void Quit()
     {
-        Application.Quit();  // Quit the game
-    } 
+        Time.timeScale = 1f;
+        Application.Quit();
+    }
 }
