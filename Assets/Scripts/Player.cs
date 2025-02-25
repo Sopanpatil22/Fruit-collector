@@ -158,7 +158,7 @@ public class Player : MonoBehaviour
 
 
             // Show high score on Game Over panel
-            int lasthighScore = PlayerPrefs.GetInt("HighScore", 0);
+            int lasthighScore = PlayerPrefs.GetInt("HighScore");
             LasthighScore.text = "High Score: " + lasthighScore;
         
         }
