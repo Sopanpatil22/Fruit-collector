@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class FruitSpawner : MonoBehaviour
 {
@@ -12,24 +11,14 @@ public class FruitSpawner : MonoBehaviour
     public float fallSpeed = 3f;
     public float bombSpawnInterval = 5f;
     public float bombSpawnAcceleration = 0.1f;
-    
-    private int score = 0;
-    private int highScore;
-    public TMP_Text scoreText;
-    public TMP_Text highScoreText;
-    
-    public GameObject gameOverPanel; // UI Panel
-    public TMP_Text finalScoreText;
-    public TMP_Text finalHighScoreText;
 
-    bool gameStarted = false;
-    public GameObject taptext;
+    public GameObject gameOverPanel; // UI Panel
+    public GameObject tapText;
+    private bool gameStarted = false;
     private bool isPaused = false;
 
     void Start()
     {
-        highScore = PlayerPrefs.GetInt("HighScore", 0);
-        UpdateHighScoreText();
         InvokeRepeating(nameof(IncreaseBombSpawnRate), 10f, 10f);
         gameOverPanel.SetActive(false); // Hide game over panel
     }
@@ -38,19 +27,19 @@ public class FruitSpawner : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && !gameStarted)
         {
-            startSpawning();
+            StartSpawning();
             gameStarted = true;
-            taptext.SetActive(false);
+            tapText.SetActive(false);
         }
     }
 
-    private void startSpawning()
+    private void StartSpawning()
     {
-        InvokeRepeating(nameof(spawnFruit), 1f, spawnInterval);
-        InvokeRepeating(nameof(spawnBomb), bombSpawnInterval, bombSpawnInterval);
+        InvokeRepeating(nameof(SpawnFruit), 1f, spawnInterval);
+        InvokeRepeating(nameof(SpawnBomb), bombSpawnInterval, bombSpawnInterval);
     }
 
-    private void spawnFruit()
+    private void SpawnFruit()
     {
         if (fruitPrefab.Length == 0) return;
 
@@ -61,11 +50,11 @@ public class FruitSpawner : MonoBehaviour
         Rigidbody2D rb = fruit.GetComponent<Rigidbody2D>();
         if (rb != null)
         {
-            rb.linearVelocity = new Vector2(0, -fallSpeed);
+            rb.linearVelocity = new Vector2(0, -fallSpeed); // Set falling speed
         }
     }
 
-    private void spawnBomb()
+    private void SpawnBomb()
     {
         if (bombPrefab == null) return;
 
@@ -82,49 +71,23 @@ public class FruitSpawner : MonoBehaviour
     private void IncreaseBombSpawnRate()
     {
         bombSpawnInterval = Mathf.Max(0.5f, bombSpawnInterval - bombSpawnAcceleration);
-        CancelInvoke(nameof(spawnBomb));
-        InvokeRepeating(nameof(spawnBomb), bombSpawnInterval, bombSpawnInterval);
-    }
-
-    public void AddScore(int points)
-    {
-        score += points;
-        scoreText.text = "Score: " + score;
-        
-        if (score > highScore)
-        {
-            highScore = score;
-            PlayerPrefs.SetInt("HighScore", highScore);
-            PlayerPrefs.Save();
-            UpdateHighScoreText();
-        }
-    }
-
-    private void UpdateHighScoreText()
-    {
-        highScoreText.text = "High Score: " + PlayerPrefs.GetInt("HighScore", 0);
+        CancelInvoke(nameof(SpawnBomb));
+        InvokeRepeating(nameof(SpawnBomb), bombSpawnInterval, bombSpawnInterval);
     }
 
     public void GameOver()
     {
-        if (score > PlayerPrefs.GetInt("HighScore", 0))
-        {
-            PlayerPrefs.SetInt("HighScore", score);
-            PlayerPrefs.Save();
-        }
         TogglePause();
     }
 
     public void TogglePause()
     {
         isPaused = !isPaused;
-        
+
         if (isPaused)
         {
             Time.timeScale = 0f;
             gameOverPanel.SetActive(true);
-            finalScoreText.text = "Score: " + score;
-            finalHighScoreText.text = "High Score: " + PlayerPrefs.GetInt("HighScore", 0);
         }
         else
         {
