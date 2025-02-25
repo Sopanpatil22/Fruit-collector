@@ -14,12 +14,14 @@ public class QuitGame : MonoBehaviour
 
     public void ShowQuitConfirmation()
     {
-        confirmationPanel.SetActive(true); // Show confirmation box
+        confirmationPanel.SetActive(true);
+        Time.timeScale = 0f; 
     }
 
     public void CancelQuit()
     {
-        confirmationPanel.SetActive(false); // Hide confirmation box
+        confirmationPanel.SetActive(false);
+        Time.timeScale = 1f;
     }
 
     public void QuitApplication()

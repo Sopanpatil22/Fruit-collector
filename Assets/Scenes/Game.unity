@@ -1304,7 +1304,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 0000000093c19bb789cb02d91b0b7083
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -1539,7 +1539,7 @@ MonoBehaviour:
   - {fileID: 5332017396927603345, guid: 02287651c802c2045b41c5bf2a2f9271, type: 3}
   maxX: 3
   minX: -3
-  Fruitspawner: {fileID: 632290726}
+  Fruitspawner: {fileID: 0}
   spawnInterval: 0.8
   spawnY: 6
   fallSpeed: 4
@@ -1771,7 +1771,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 184, y: 421}
+  m_AnchoredPosition: {x: 197, y: -63}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &767618059
@@ -2171,7 +2171,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00094604, y: 581.0107}
+  m_AnchoredPosition: {x: 0, y: 120}
   m_SizeDelta: {x: 996.33, y: 120.0213}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1221770077
@@ -2307,9 +2307,9 @@ RectTransform:
   - {fileID: 862109959}
   m_Father: {fileID: 405043550}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 408, y: 755}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -90, y: -286}
   m_SizeDelta: {x: 160, y: 152.6742}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336667768
@@ -2795,7 +2795,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -200, y: 421}
+  m_AnchoredPosition: {x: -259, y: -63}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1593248475
