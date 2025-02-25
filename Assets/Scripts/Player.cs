@@ -69,5 +69,9 @@ public class Player : MonoBehaviour
 
              scoreText.text=Score.ToString();
         }
+        else if(collision.gameObject.tag=="Bomb"){
+            Destroy(collision.gameObject);
+             FindObjectOfType<FruitSpawner>().GameOver();
+        }
     }
 }
